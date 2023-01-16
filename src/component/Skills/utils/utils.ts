@@ -4,8 +4,7 @@ export const skills: { categories: string; items: string[] }[] = [
 		items: [
 			'Python',
 			'SQL',
-			'R',
-			' - and a little Spanish'
+			'R'			
 		]
 	},
 	{

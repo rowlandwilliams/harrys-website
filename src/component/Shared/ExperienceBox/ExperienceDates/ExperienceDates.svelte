@@ -4,8 +4,8 @@
 	export let timeframe: Timeframe;
 </script>
 
-<div class="flex gap-x-1">
-	<div>{getTimeframe(timeframe)}</div>
+<div class="flex gap-x-1 text-sm">
+	<div class="text-gray-800">{getTimeframe(timeframe)}</div>
 	<p class="text-indigo-500">&#8226;</p>
-	<div>{getMonthDiff(timeframe)}</div>
+	<div class="text-gray-800">{getMonthDiff(timeframe)}</div>
 </div>

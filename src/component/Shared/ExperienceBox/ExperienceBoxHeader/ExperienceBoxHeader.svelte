@@ -13,7 +13,7 @@
 			<img src={`images/${image}`} alt="flow" />
 		</div>
 		<div>
-			<h1 class="font-medium text-gray-800">{title}</h1>
+			<h1 class="font-medium text-gray-800 text-sm">{title}</h1>
 			<h2 class="hover:text-indigo-500 hover:underline ">{employer}</h2>
 		</div>
 	</div>

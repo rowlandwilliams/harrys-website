@@ -1,1 +1,1 @@
-<section class="border-b border-gray-100 py-4"><slot /></section>
+<section class="border-b border-gray-200 py-4"><slot /></section>
