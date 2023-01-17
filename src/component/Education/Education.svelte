@@ -5,7 +5,8 @@
 	const educationDetails = {
 		title: 'MSci Natural Sciences (1st Class Honours)',
 		employer: 'University College London (UCL)',
-		image: '../../../../public/images/ucl.svg',
+		employer_url: 'https://www.ucl.ac.uk/',
+		image: './public/images/ucl.svg',
 		imageColorClass: 'bg-gray-100',
 		bullets: [
 			"Provost's Excellence Scholarship for outstanding academic achievement.",

@@ -4,7 +4,8 @@ export const jobs: Jobs = [
 	{
 		title: 'Lead Business Intelligence Developer',
 		employer: 'NHS Digital',
-		image: '../../../../../public/images/nhs.svg',
+		employer_url: 'https://digital.nhs.uk/dashboards',
+		image: './public/images/nhs.svg',
 		imageColorClass: 'bg-yellow-200',
 		bullets: [
 			'Responsible for end-to-end technical delivery of business intelligence products across NHS.',			
@@ -22,7 +23,8 @@ export const jobs: Jobs = [
 	{
 		title: 'Business Intelligence Developer',
 		employer: 'NHS Digital',
-		image: '../../../../../public/images/nhs.svg',
+		employer_url: 'https://digital.nhs.uk/dashboards',
+		image: './public/images/nhs.svg',
 		imageColorClass: 'bg-yellow-200',
 		bullets: [
 			'Lead developer of GP Appointments dashboards in Tableau (1000 NHS Users per week).',
@@ -40,7 +42,8 @@ export const jobs: Jobs = [
 	{
 		title: 'Data Science Graduate Trainee',
 		employer: 'NHS Digital',
-		image: '../../../../../public/images/nhs.svg',
+		employer_url: 'https://digital.nhs.uk/dashboards',
+		image: './public/images/nhs.svg',
 		imageColorClass: 'bg-yellow-200',
 		bullets: [
 			'Automated pipelines to transport big data volumes to AWS S3 via Python using boto3 API. Coordinated with internal teams to define responsibilities and manage dependencies.',
@@ -54,7 +57,8 @@ export const jobs: Jobs = [
 	{
 		title: 'Business Analysis Graduate Trainee',
 		employer: 'NHS Digital',
-		image: '../../../../../public/images/nhs.svg',
+		employer_url: 'https://digital.nhs.uk/',
+		image: './public/images/nhs.svg',
 		imageColorClass: 'bg-yellow-200',
 		bullets: [
 			'Developed Outcome Data Infographics at national and local levels using Google Charts API, giving NHS 111 Providers operational insights on secondary care outcomes following a 111 call.',
@@ -67,7 +71,8 @@ export const jobs: Jobs = [
     {
 		title: 'Digital Intern',
 		employer: 'Best Beginnings',
-		image: '../../../../../public/images/best_beginnings.jpg',
+		employer_url: 'https://www.bestbeginnings.org.uk/',
+		image: './public/images/best_beginnings.jpg',
 		imageColorClass: 'bg-blue-200',
 		bullets: [
 			'Led website redesign implementation to improve user interface in order to increase donor acquisition and online traffic.',

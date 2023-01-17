@@ -8,11 +8,11 @@
 
 <div class="grid h-screen place-items-center">
 <section class="container flex flex-col items-center border px-4 text-sm w-full md:w-[a4WidthInPixels] md:h-[a4WidthInPixels]">
-	<div class="h-full w-full md:w-[a4WidthInPixels] md:h-[a4WidthInPixels] overflow-hidden bg-white">
+	<div class="h-full w-full overflow-hidden bg-whit">
 		<Header />
 		<Bio />
 		<Experience />
-		<div class="grid grid-cols-2 gap-x-4">
+		<div class="xxs:grid grid-rows gap-y-4 lg:grid-cols-2 gap-x-4">
 			<Skills />
 			<Education />
 		</div>

@@ -1,6 +1,7 @@
 interface Job {
 	title: string;
 	employer: string;
+	employer_url: string;
 	image: string;
 	imageColorClass: string;
 	bullets: string[];
