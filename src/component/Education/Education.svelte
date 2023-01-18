@@ -6,7 +6,7 @@
 		title: 'MSci Natural Sciences (1st Class Honours)',
 		employer: 'University College London (UCL)',
 		employer_url: 'https://www.ucl.ac.uk/',
-		image: './public/images/ucl.svg',
+		image: 'ucl.svg',
 		imageColorClass: 'bg-gray-100',
 		bullets: [
 			"Provost's Excellence Scholarship for outstanding academic achievement.",

@@ -12,7 +12,7 @@
 	{#each contacts as { icon, contact, link }}
 		<div class="xxs:flex justify-left items-left gap-x-2 xs:items-center">
 			<div class="w-3 text-indigo-400">
-				<a href={link} target="_blank" rel="noopener noreferrer"><img src={`./public/contacts/${icon}.svg`} alt={icon} /></a>
+				<a href={link} target="_blank" rel="noopener noreferrer"><img src={`${icon}.svg`} alt={icon} /></a>
 			</div>
 			<a href={link} target="_blank" rel="noopener noreferrer"><p class="text-gray-500 hover:text-blue-700 hover:underline mx-2">{contact}</p></a>
 		</div>

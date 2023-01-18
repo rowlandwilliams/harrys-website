@@ -12,7 +12,7 @@
 			<div class="flex flex-col gap-y-2 text-left group relative ">
 				<p style="padding-top:4px;">
 					<button>Security Cleared</button><img
-						src={`../../../public/contacts/secure.svg`}
+						src={`secure.svg`}
 						alt="security cleared"
 						style="float:left;width:24px;height:24px;margin-right:6px"
 					/>
