@@ -6,7 +6,7 @@ export const jobs: Jobs = [
 		employer: 'NHS Digital',
 		employer_url: 'https://digital.nhs.uk/dashboards',
 		image: 'nhs.svg',
-		imageColorClass: 'bg-yellow-200',
+		imageColorClass: 'bg-nhs_bright_blue',
 		bullets: [
 			'Responsible for end-to-end technical delivery of business intelligence products across NHS.',			
 			'Manager of 7 developers; responsible for their technical development, quality of work, and prioritising workload according to organisational priorities.',
@@ -25,7 +25,7 @@ export const jobs: Jobs = [
 		employer: 'NHS Digital',
 		employer_url: 'https://digital.nhs.uk/dashboards',
 		image: 'nhs.svg',
-		imageColorClass: 'bg-yellow-200',
+		imageColorClass: 'bg-nhs_bright_blue',
 		bullets: [
 			'Lead developer of GP Appointments dashboards in Tableau (1000 NHS Users per week).',
             'Deployed dashboards from testing into production following organisation change protocol and developer best practice, using Tableau APIs, managing version control via a GIT repo.',
@@ -44,7 +44,7 @@ export const jobs: Jobs = [
 		employer: 'NHS Digital',
 		employer_url: 'https://digital.nhs.uk/dashboards',
 		image: 'nhs.svg',
-		imageColorClass: 'bg-yellow-200',
+		imageColorClass: 'bg-nhs_bright_blue',
 		bullets: [
 			'Automated pipelines to transport big data volumes to AWS S3 via Python using boto3 API. Coordinated with internal teams to define responsibilities and manage dependencies.',
 			'Led re-design of data processing for multiple statistical publications to deadline from SAS to Python, in line with organisational priorities to move towards open-source technology.',
@@ -59,7 +59,7 @@ export const jobs: Jobs = [
 		employer: 'NHS Digital',
 		employer_url: 'https://digital.nhs.uk/',
 		image: 'nhs.svg',
-		imageColorClass: 'bg-yellow-200',
+		imageColorClass: 'bg-nhs_bright_blue',
 		bullets: [
 			'Developed Outcome Data Infographics at national and local levels using Google Charts API, giving NHS 111 Providers operational insights on secondary care outcomes following a 111 call.',
 			'Product Owner for the NHS Apps Library assessment process: engaged NHS experts across multiple professions to deliver the online assessment for onboarding health apps onto the NHS Apps Library.'
@@ -73,7 +73,7 @@ export const jobs: Jobs = [
 		employer: 'Best Beginnings',
 		employer_url: 'https://www.bestbeginnings.org.uk/',
 		image: 'best_beginnings.jpg',
-		imageColorClass: 'bg-blue-200',
+		imageColorClass: 'bg-rose-200',
 		bullets: [
 			'Led website redesign implementation to improve user interface in order to increase donor acquisition and online traffic.',
 			'Analysed data in Excel from app usage to create weekly reporting for executive team.'

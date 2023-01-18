@@ -19,7 +19,12 @@ module.exports = {
             },
             spacing:{
       "ss": "3rem"
-                    }
+                    },
+            colors:{
+      "nhs_blue":"#005EB8",
+      "nhs_bright_blue":"#0072CE",
+      ...defaultTheme.colors,
+            }
   },
   },
   plugins: [],
