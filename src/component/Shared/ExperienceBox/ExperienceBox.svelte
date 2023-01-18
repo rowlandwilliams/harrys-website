@@ -15,7 +15,7 @@
 </script>
 
 <div
-	class="flex max-h-max w-full flex-col gap-y-2 rounded-xl border border-gray-100 p-4 text-xs text-gray-500"
+	class="flex max-h-max w-full flex-col gap-y-2 rounded-xl border border-gray-100 p-4 text-xs text-gray-600"
 >
 	<ExperienceBoxHeader {imageColorClass} {image} {title} {employer} {employer_url} />
 	<ExperienceBullets {bullets} />
