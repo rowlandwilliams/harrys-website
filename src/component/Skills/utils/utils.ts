@@ -4,7 +4,10 @@ export const skills: { categories: string; items: string[] }[] = [
 		items: [
 			'Python',
 			'SQL',
-			'R'			
+			'R',
+			'JavaScript',
+			'HTML',
+			'CSS'					
 		]
 	},
 	{
@@ -16,6 +19,7 @@ export const skills: { categories: string; items: string[] }[] = [
 			'Tableau Server',
 			'Jupyter',
 			'DataBricks',
+			'Excel',
 			'Jira',
 			'Confluence'
 		]

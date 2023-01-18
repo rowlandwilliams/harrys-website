@@ -11,7 +11,7 @@ module.exports = {
         'xs': '490px',
         ...defaultTheme.screens,
       },
-      fontSize:{
+            fontSize:{
       "ss":"0.8125rem"
     },
             lineHeight:{

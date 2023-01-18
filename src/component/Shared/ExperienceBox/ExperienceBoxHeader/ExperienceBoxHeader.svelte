@@ -10,7 +10,7 @@
 
 <div class="flex justify-between">
 	<div class="flex items-center gap-x-2">
-		<div class={classNames('flex items-center w-8 h-8 p-1.5 rounded-full', imageColorClass)}>
+		<div class={classNames('flex items-center w-8 h-8 p-0.5 rounded-full', imageColorClass)}>
 			<img src={image} alt="flow" />
 		</div>
 		<div>

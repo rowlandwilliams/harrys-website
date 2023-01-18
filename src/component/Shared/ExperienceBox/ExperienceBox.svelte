@@ -20,7 +20,7 @@
 >
 	<ExperienceBoxHeader {imageColorClass} {image} {title} {employer} {employer_url} {withArrow} />
 	<ExperienceBullets {bullets} />
-	<div class="flex justify-between">
+	<div class="flex flex-col xs:flex-row justify-between">
 		<ExperienceDates {timeframe} />
 		<ExperienceLocations {locations} />
 	</div>

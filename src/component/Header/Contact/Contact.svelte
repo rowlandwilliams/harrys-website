@@ -8,10 +8,10 @@
 	];
 </script>
 
-<div class="text-left items-left p-2 xxs:grid grid-rows-3 grid-flow-col max-h-20 gap-y-0.5 gap-x-2 sm:flex flex-row sm:gap-x-0.5 content-evenly sm:max-h-fit sm:text-center lg:flex-col justify-start ">
+<div class="text-left items-left justify-between p-2 xxs:grid grid-rows-3 grid-flow-col max-h-20 gap-y-0.5 gap-x-2 sm:flex flex-row sm:align-middle sm:gap-x-0.5 content-evenly sm:max-h-fit sm:text-center lg:flex-col lg:justify-start ">
 	{#each contacts as { icon, contact, link }}
-		<div class="xxs:flex items-left row-span-1 gap-x-2 xs:flex items-left md:justifiy-start items-left lg:gap-x-0.5">
-			<div class="w-4 lg:pt-1">
+		<div class="xxs:flex items-left row-span-1 gap-x-2 xs:flex items-left md:justifiy-start items-left sm:gap-x-0.5">
+			<div class="w-4 pt-0.5 lg:pt-1">
 				<a href={link} target="_blank" rel="noopener noreferrer"><img src={`${icon}.svg`} alt={icon} /></a>
 			</div>
 			<div><a href={link} target="_blank" rel="noopener noreferrer"><p class="text-gray-500 hover:text-blue-700 hover:underline mx-2">{contact}</p></a></div>

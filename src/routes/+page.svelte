@@ -6,11 +6,11 @@
 	import Skills from '../component/Skills/Skills.svelte';
 </script>
 
-<div class="grid place-items-center m-12">
+<div class="grid place-items-center bg-gray-900 m-2 sm:mx-auto sm:my-2">
 	<section
-		class="container flex flex-col items-center border px-4 text-sm w-full md:w-[a4WidthInPixels] md:h-[a4WidthInPixels]"
+		class="container flex flex-col items-center bg-white border px-4 text-sm w-full "
 	>
-		<div class="h-full w-full overflow-hidden bg-whit">
+		<div class="h-full w-full overflow-hidden bg-white">
 			<Header />
 			<Bio />
 			<Experience />
