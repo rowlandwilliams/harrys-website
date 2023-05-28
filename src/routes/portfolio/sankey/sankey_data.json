@@ -1,0 +1,162 @@
+{
+	"nodes": [
+		{
+			"name": "Ambulance",
+			"colour": "red",
+			"index": 0,
+			"fixedLayer": 0
+		},
+		{
+			"name": "Type 1 Emergency Department",
+			"colour": "#ffb000",
+			"index": 1,
+			"fixedLayer": 1
+		},
+		{
+			"name": "Emergency Department",
+			"colour": "yellow",
+			"index": 2,
+			"fixedLayer": 0
+		},
+		{
+			"name": "Primary Care",
+			"colour": "blue",
+			"index": 3,
+			"fixedLayer": 0
+		},
+		{
+			"name": "Other",
+			"colour": "lime",
+			"index": 4,
+			"fixedLayer": 0
+		},
+		{
+			"name": "Types 2-4 Emergency Department",
+			"colour": "#bb00dd",
+			"index": 5,
+			"fixedLayer": 1
+		},
+		{
+			"name": "No attendance",
+			"colour": "silver",
+			"index": 6,
+			"fixedLayer": 1
+		},
+		{
+			"name": "Necessary",
+			"colour": "red",
+			"index": 7,
+			"fixedLayer": 2
+		},
+		{
+			"name": "Admission",
+			"colour": "red",
+			"index": 8,
+			"fixedLayer": 3
+		},
+		{
+			"name": "No admission",
+			"colour": "silver",
+			"index": 9,
+			"fixedLayer": 3
+		},
+		{
+			"name": "Low acuity",
+			"colour": "silver",
+			"index": 10,
+			"fixedLayer": 2
+		}
+	],
+	"links": [
+		{
+			"source": 0,
+			"target": 1,
+			"value": 1028776
+		},
+		{
+			"source": 2,
+			"target": 1,
+			"value": 772116
+		},
+		{
+			"source": 3,
+			"target": 1,
+			"value": 737323
+		},
+		{
+			"source": 4,
+			"target": 1,
+			"value": 341564
+		},
+		{
+			"source": 0,
+			"target": 5,
+			"value": 25735
+		},
+		{
+			"source": 2,
+			"target": 5,
+			"value": 118114
+		},
+		{
+			"source": 3,
+			"target": 5,
+			"value": 354878
+		},
+		{
+			"source": 4,
+			"target": 5,
+			"value": 58131
+		},
+		{
+			"source": 0,
+			"target": 6,
+			"value": 615008
+		},
+		{
+			"source": 2,
+			"target": 6,
+			"value": 350126
+		},
+		{
+			"source": 3,
+			"target": 6,
+			"value": 5294598
+		},
+		{
+			"source": 4,
+			"target": 6,
+			"value": 2847707
+		},
+		{
+			"source": 1,
+			"target": 7,
+			"value": 2524478
+		},
+		{
+			"source": 5,
+			"target": 8,
+			"value": 24773
+		},
+		{
+			"source": 6,
+			"target": 8,
+			"value": 241103
+		},
+		{
+			"source": 7,
+			"target": 8,
+			"value": 992183
+		},
+		{
+			"source": 7,
+			"target": 9,
+			"value": 1532295
+		},
+		{
+			"source": 1,
+			"target": 10,
+			"value": 355301
+		}
+	]
+}

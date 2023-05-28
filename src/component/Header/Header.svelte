@@ -11,7 +11,7 @@
 				<h2 class="text-lg font-medium text-gray-800">
 					Business Intelligence Developer <span class="text-indigo-500">&#8226;</span> Analytics Manager
 				</h2>
-				<span class="text-indigo-500 hidden sm:block text-lg">|</span>
+				<span class="text-indigo-500 hidden sm:block text-xl">|</span>
 				<div class="flex flex-col gap-y-2 text-left group relative ">
 					<p style="padding-top:4px;">
 						<button>Security Cleared</button><img

@@ -1,6 +1,7 @@
 <script>
     import ExperienceBox from '../Shared/ExperienceBox/ExperienceBox.svelte';
-    import Column from '../Shared/Column/Column.svelte'; 
+	import Row from '../Shared/Row/Row.svelte';
+	
 
 	const educationDetails = {
 		title: 'MSci Natural Sciences (1st Class Honours)',
@@ -20,7 +21,7 @@
 </script>
 
 <section>
-	<Column columnHeader="Education">
+	<Row rowHeader="Education">
 		<ExperienceBox {...educationDetails} />
-	</Column>
+	</Row>
 </section>

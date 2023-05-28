@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Timeframe } from 'src/types/types';
+	import type { Timeframe } from '../../../types/types';
 	import ExperienceBoxHeader from './ExperienceBoxHeader/ExperienceBoxHeader.svelte';
 	import ExperienceBullets from './ExperienceBullet/ExperienceBullet.svelte';
 	import ExperienceDates from './ExperienceDates/ExperienceDates.svelte';

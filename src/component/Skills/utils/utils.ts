@@ -1,17 +1,12 @@
-export const skills: { categories: string; items: string[] }[] = [
+export const skills: { categories: string; items: string[]; gridColsClass: string }[] = [
 	{
 		categories: 'Languages',
-		items: [
-			'Python',
-			'SQL',
-			'R',
-			'JavaScript',
-			'HTML',
-			'CSS'					
-		]
+		gridColsClass: 'grid-cols-3',
+		items: ['Python', 'SQL', 'R', 'JavaScript', 'HTML', 'CSS']
 	},
 	{
 		categories: 'Tools / Technologies',
+		gridColsClass: 'grid-cols-4',
 		items: [
 			'AWS',
 			'VS Code',
@@ -20,8 +15,7 @@ export const skills: { categories: string; items: string[] }[] = [
 			'Jupyter',
 			'DataBricks',
 			'Excel',
-			'Jira',
-			'Confluence'
+			'Jira / Confluence'
 		]
 	}
 ];
