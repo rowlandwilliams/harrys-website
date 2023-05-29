@@ -1,10 +1,15 @@
 <script lang="ts">
-	import { sankey, sankeyLinkHorizontal } from 'd3-sankey';
+	import { sankey } from 'd3-sankey';
 	import data from '../portfolio/sankey/sankey_data.json';
+	import SankeyLinkGradient from '../../component/SankeyLinkGradient/SankeyLinkGradient.svelte';
+	import SankeyLink from '../../component/SankeyLink/SankeyLink.svelte';
+	import SankeyNode from '../../component/SankeyNode/SankeyNode.svelte';
+	import classNames from 'classnames';
+	import { linkIsHovered } from '../../stores';
 
 	let width = 0;
 	const height = 600;
-	const nodeWidth = 30;
+	const nodeWidth = 25;
 	const paddingX = 10;
 	const paddingY = 10;
 
@@ -24,37 +29,36 @@
 <div class="p-0 md:p-4">
 	<section
 		bind:clientWidth={width}
-		class="relative flex  flex-col items-center font-normal  text-sm h-full w-full "
+		class="relative flex  flex-col items-center font-normal text-sm h-full w-full "
 	>
-		{#if width > 0}
-			<svg width="100%" {height}>
-				<g transform={`translate(${paddingX},${paddingY})`}>
-					<g id="nodes">
-						{#each send.nodes as node}
-							<rect
-								fill={node.colour}
-								class="stroke-gray-400"
-								stroke-width=""
-								x={node.x0}
-								y={node.y0}
-								width={nodeWidth}
-								height={node.y1 - node.y0}
-							/>
-						{/each}
-					</g>
-					<g id="links">
-						{#each send.links as link}
-							<path
-								fill="none"
-								opacity="0.2"
-								stroke="red"
-								d={sankeyLinkHorizontal()(link)}
-								stroke-width={Math.max(1, link.width)}
-							/>
-						{/each}
-					</g>
+		<svg width="100%" {height}>
+			<defs>
+				{#each send.links as link}
+					<SankeyLinkGradient source={link.source} target={link.target} />
+				{/each}
+			</defs>
+			<g transform={`translate(${paddingX},${paddingY})`}>
+				<g id="nodes">
+					{#each send.nodes as node}
+						<SankeyNode {node} {nodeWidth} />
+					{/each}
 				</g>
-			</svg>
-		{/if}
+				<g id="links">
+					{#each send.links as link}
+						<SankeyLink {link} />
+					{/each}
+				</g>
+			</g>
+		</svg>
 	</section>
+
+	<div
+		class={classNames('absolute top-2 left-2 bg-gray-900 text-xs shadow-lg', {
+			hidden: !linkIsHovered
+		})}
+	>
+		{#each send.links as link}
+			{link.value}
+		{/each}
+	</div>
 </div>
