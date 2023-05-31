@@ -1,4 +1,5 @@
-import type { Jobs } from 'src/types/types';
+import type { Jobs } from "../../../types/cv";
+
 
 export const jobs: Jobs = [
 	{

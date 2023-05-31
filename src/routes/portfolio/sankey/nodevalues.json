@@ -1,0 +1,79 @@
+{
+"data": [
+	{   
+        "name": "Ambulance",
+        "index": 0,
+        "nodeSum": 1669519,
+        "nodeTotal": 12544076,
+        "percent": 13.0 
+    },
+	{
+		"name": "Type 1 Emergency Department",
+		"index": 1,
+		"nodeSum": 2879779,
+		"nodeTotal": 12544076,
+		"percent": 23.0
+	},
+	{
+		"name": "Emergency Department",
+		"index": 2,
+		"nodeSum": 1240356,
+		"nodeTotal": 12544076,
+		"percent": 10.0
+	},
+	{
+		"name": "Primary Care",
+		"index": 3,
+		"nodeSum": 6386799,
+		"nodeTotal": 12544076,
+		"percent": 51.0
+	},
+	{   "name": "Other",
+        "index": 4,
+        "nodeSum": 3247402,
+        "nodeTotal": 12544076,
+        "percent": 26.0 },
+	{
+		"name": "Types 2-4 Emergency Department",
+		"index": 5,
+		"nodeSum": 556858,
+		"nodeTotal": 12544076,
+		"percent": 4.0
+	},
+	{
+		"name": "No attendance",
+		"index": 6,
+		"nodeSum": 9107439,
+		"nodeTotal": 12544076,
+		"percent": 73.0
+	},
+    { 
+        "name": "Necessary",
+        "index": 7,
+        "nodeSum": 2524478,
+        "nodeTotal": 2879779,
+        "percent": 88.0 
+    },
+	{ 
+        "name": "Admission",
+        "index": 8,
+        "nodeSum": 1258059,
+        "nodeTotal": 2790354,
+        "percent": 45.0
+     },
+	{ 
+        "name": "No admission",
+        "index": 9,
+        "nodeSum": 1532295,
+        "nodeTotal": 2790354,
+        "percent": 55.0 
+    },
+	{ 
+        "name": "Low acuity",
+        "index": 10,
+        "nodeSum": 355301,
+        "nodeTotal": 2879779,
+        "percent": 12.0 
+    }
+]
+}

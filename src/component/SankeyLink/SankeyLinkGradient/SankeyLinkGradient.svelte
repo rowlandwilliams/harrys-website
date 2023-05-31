@@ -1,6 +1,6 @@
-<script>
-	export let source;
-	export let target;
+<script lang="ts">
+	export let source: { index: number; colour: string };
+	export let target: { index: number; colour: string };
 	const gradientId = source.index + '-' + target.index;
 </script>
 

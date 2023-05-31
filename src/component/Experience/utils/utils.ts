@@ -1,4 +1,4 @@
-import type { Timeframe } from './../../../types/types';
+import type { Timeframe } from '../../../types/cv';
 
 const months = [
 	'Jan',
